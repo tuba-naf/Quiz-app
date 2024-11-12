@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="content-writing">
+        <div class="quiz1"><h1 id="quiz-question" ></h1></div>
+        <div class="Pquiz">
+            <h3>Mark your answer carefully!</h3>
+            <div id="answers-button">
+                <button class="answer-btn" data-domain="content-writing" class="btn">Answer 1</button>
+                <button class="answer-btn" data-domain="content-writing" class="btn">Answer 2</button>
+                <button class="answer-btn" data-domain="content-writing" class="btn">Answer 3</button>
+                <button class="answer-btn" data-domain="content-writing" class="btn">Answer 4</button>
+            </div>
+        </div>
+    </div>
+    <!-- End message section -->
+    <div id="end-message" style="display: none; text-align: center;">
+        <h2>Thankyou for participating</h2>
+        <button onclick="goToHomePage()">Back to Home Page</button>
+    </div>
+    <script src="contentwriting.js"></script>
+</body>
+</html>

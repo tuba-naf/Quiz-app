@@ -1,0 +1,294 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+.div {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.display {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.display:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button a:hover {
+    text-decoration: none;
+}
+.quiz1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.Pquiz {
+    background-color: #e7f3fe;
+    border: 1px solid #b3d7ff;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.Pquiz:hover {
+    background-color: #d0ebff;
+    transform: translateY(-3px);
+}
+
+.Pquiz a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.Pquiz a h1 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.Pquiz p {
+    font-size: 1em;
+    color: #555;
+}
+.presentation .contentwriting .research {
+    text-align: center;
+    background-color: #ffffff; /* White background for content */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px;
+    width: 90%;
+    max-width: 500px; /* Maximum width for larger screens */
+}
+
+
+.quiz1 {
+    background-color: #ffffff; /* White background for the question box */
+    border: 2px solid black; /* Border color matching the primary theme */
+    border-radius: 6px; /* Rounded corners for a softer look */
+    padding: 20px; /* Padding inside the box for space */
+    margin: 20px 0; /* Margin above and below the box */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center-align text inside the box */
+}
+
+.quiz1 h1 {
+    font-size: 1.8em; /* Font size for the question */
+    color: #333; /* Dark text color for readability */
+    margin: 0; /* Remove default margin */
+    line-height: 1.4; /* Improve spacing between lines */
+}
+.quiz-question {
+    font-size: 1.5rem; /* Default font size */
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    text-align: left; /* Align question to the left */
+}
+
+/* Styles for <h3> Heading */
+h3 {
+    font-size: 1.2rem; /* Default font size */
+    color: #2c3e50;
+    margin-bottom: 10px;
+    line-height: 1.4;
+    padding-left: 10px;
+    text-align: left; /* Center-align by default */
+}
+/* Main container */
+.app {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Header styling */
+.app h1 {
+    color: #0066cc; /* Light blue heading */
+    margin-bottom: 20px;
+}
+
+/* Sub-app container styling */
+.subapp {
+    background-color: #f2f9ff;
+    border: 1px solid #cce7ff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+}
+
+.subapp:hover {
+    background-color: #e0f3ff;
+}
+
+/* Link Styling */
+.subapp a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.subapp h1 {
+    color: #0066cc;
+    font-size: 1.4em;
+}
+
+.subapp p {
+    color: #666;
+    font-size: 0.9em;
+}
+/* Responsive Styling */
+
+/* General Mobile Adjustments */
+@media (max-width: 480px) {
+    .div {
+        padding: 8px;
+        width: 90%; /* Increase width to better fit screen size */
+        max-width: 300px; /* Set max-width for better control */
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    .display{
+        padding: 8px;
+        font-size: 0.85rem;
+    }
+
+    .presentation .research .contentwriting {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .Pquiz {
+        padding: 8px;
+    }
+
+    .Pquiz a h1 {
+        font-size: 1.2em;
+    }
+    
+    /* Adjustments for Quiz Container */
+    .quiz1 {
+        padding: 10px; /* Reduce padding for mobile screens */
+        width: 100%; /* Full width on mobile */
+        max-width: 398px; /* Control width for smaller screens */
+        margin: 15px auto; /* Centered with reduced margin */
+    }
+
+    .quiz1 h1 {
+        font-size: 1.3rem; /* Further reduce font size for question */
+        margin-bottom: 10px;
+    }
+
+    /* Adjustments for Question Text */
+    .quiz-question {
+        font-size: 1.2rem; /* Smaller font size for better readability */
+        margin-bottom: 20px;
+        text-align: left; /* Keep text aligned to the left */
+    
+    }
+
+    /* h3 Element Adjustments */
+    h3 {
+        font-size: 1rem; /* Smaller font for mobile */
+        padding-left: 8px;
+        margin-bottom: 8px;
+    }
+
+    button {
+        padding: 8px 15px; /* Smaller padding for compact display */
+        font-size: 0.9 rem; /* Reduce font size on mobile */
+    }
+    .presentation .contentwriting .research {
+        padding: 5px; /* Compact padding for mobile screens */
+        width: 100%; /* Full width on mobile */
+        max-width: 100%; /* Ensure it takes the full width on mobile */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Softer shadow for mobile */
+        
+ 
+    }
+    .app {
+        padding: 15px;
+    }
+
+    .app h1 {
+        font-size: 1.5em;
+    }
+
+    .subapp h1 {
+        font-size: 1.2em;
+    }
+
+    .subapp p {
+        font-size: 0.85em;
+    }
+}
+
